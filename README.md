@@ -1,6 +1,6 @@
 
 # 3D world using models
-
+![screen-gif](3Dmodels.gif)
 Learning three js and generating a 3d simulated world with simple elements.
 
 ## Getting Started
