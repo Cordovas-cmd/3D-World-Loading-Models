@@ -9,6 +9,8 @@ This is a 3d ish world made with javascript and three js as well as some animati
 
 ## How it Works
 Use the w a s d keys to move around the zombie for now while the background figures are dancing. More work to come.
+Would like to import other characters as well as a 3D generated background possibly some sort of fantasy or medieval theme.
+Maybe diff Biomes.
 
 ## Built With
 

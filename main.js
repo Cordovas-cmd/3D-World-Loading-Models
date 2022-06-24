@@ -213,29 +213,29 @@ class LoadModelDemo {
         this._mixers = [];
         this._previousRAF = null;
 
-        this._LoadAnimatedModel();
-        this._LoadAnimatedModelAndPlay(
-            "./resources/dancer/",
-            "girl.fbx",
-            "dance.fbx",
-            new THREE.Vector3(0, -1.5, 5)
-        );
-        this._LoadAnimatedModelAndPlay(
-            "./resources/dancer/",
-            "dancer.fbx",
-            "Silly Dancing.fbx",
-            new THREE.Vector3(30, 0, -10)
-        );
-        this._LoadAnimatedModelAndPlay(
-            "./resources/dancer/",
-            "dancer.fbx",
-            "Silly Dancing.fbx",
-            new THREE.Vector3(-12, 0, -10)
-        );
+        // this._LoadAnimatedModel();
         // this._LoadAnimatedModelAndPlay(
-        //     './resources/doughboy/', 'doughboy.fbx', 'Hip Hop Dancing.fbx' , new THREE.Vector3(-12, 0,-10));
+        //     "./resources/dancer/",
+        //     "girl.fbx",
+        //     "dance.fbx",
+        //     new THREE.Vector3(0, -1.5, 5)
+        // );
         // this._LoadAnimatedModelAndPlay(
-        //     './resources/fatdough/', 'fatdough.fbx', 'Thriller Part 3.fbx' , new THREE.Vector3(-5, 0, 0));
+        //     "./resources/dancer/",
+        //     "dancer.fbx",
+        //     "Silly Dancing.fbx",
+        //     new THREE.Vector3(30, 0, -10)
+        // );
+        // this._LoadAnimatedModelAndPlay(
+        //     "./resources/dancer/",
+        //     "dancer.fbx",
+        //     "Silly Dancing.fbx",
+        //     new THREE.Vector3(-12, 0, -10)
+        // );
+        this._LoadAnimatedModelAndPlay(
+            // './resources/doughboy/', 'doughboy.fbx', 'Hip Hop Dancing.fbx' , new THREE.Vector3(-12, 0,-10));
+        // this._LoadAnimatedModelAndPlay(
+            './resources/fatdough/', 'fatdough.fbx', 'Thriller Part 3.fbx' , new THREE.Vector3(-5, 0, 0));
         this._RAF();
     }
 
